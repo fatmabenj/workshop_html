@@ -1,12 +1,36 @@
-#a {  
+#hse {  
     background-color: rgb(216, 127, 150);  
     position: fixed;  
     left: 0;  
     right: 0;  
     top: 5px;  
-    height: 30px;  
+    height: 50px;  
     display: flex;  
     align-items: center;  
     box-shadow: 0 0 25px 0 black;  
     }  
-
+header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  ul li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
+  #h{
+    display: block;
+  }
